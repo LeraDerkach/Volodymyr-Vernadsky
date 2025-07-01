@@ -1,5 +1,9 @@
-#main {
-  width: 1440px;
+* {
+    box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
   height: auto;
   margin: 0 auto;
   background-color: lightblue;
@@ -11,7 +15,7 @@
   text-align: center;
 }
 
-#title {
+.title {
   color: midnightblue;
 }
 
@@ -30,7 +34,7 @@ ul {
 }
 
 
-#image {
+.image {
   display: block;
 max-width: 100%;
 height: auto;
@@ -42,6 +46,7 @@ border: 6px solid lightyellow;
   font-style: italic;
 }
 
-#img-caption {
+.img-caption {
 padding: 12px;
 }
+
