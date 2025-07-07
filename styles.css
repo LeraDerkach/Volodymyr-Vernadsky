@@ -27,7 +27,11 @@ h1 {
     line-height: 1.5;
     text-align: center;
     color: black;
-    text-shadow: 2px 2px 2px gray;
+    text-shadow: 3px -2px 2px gray;
+}
+
+h2 {
+  text-shadow: -1px 4px 3px gray;
 }
 
 ul {
